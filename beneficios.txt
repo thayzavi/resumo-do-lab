@@ -1,0 +1,25 @@
+Benefícios da Nuvem
+
+No módulo Benefícios da Nuvem, foi possível conhecer todos os benefícios
+que a computação em nuvem pode proporcionar. Esses benefícios são
+extremamente importantes para empresas e usuários, pois garantem mais
+eficiência, flexibilidade e segurança no uso de recursos tecnológicos.
+
+Principais Benefícios:
+
+-   Alta disponibilidade: garante que os serviços estejam acessíveis
+    praticamente o tempo todo.
+-   Escalabilidade: permite aumentar ou diminuir recursos conforme a
+    demanda.
+-   Elasticidade: ajusta automaticamente os recursos para atender
+    variações de carga.
+-   Confiabilidade: assegura que os dados e serviços estejam sempre
+    consistentes e acessíveis.
+-   Previsibilidade: possibilita controlar custos e desempenho de forma
+    eficiente.
+-   Segurança: protege dados e aplicações contra acessos não autorizados
+    e ataques.
+-   Governança: facilita o controle e a conformidade com políticas
+    organizacionais.
+-   Gerenciabilidade: simplifica a administração dos recursos e serviços
+    em nuvem.
