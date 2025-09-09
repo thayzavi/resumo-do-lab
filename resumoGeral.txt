@@ -1,0 +1,66 @@
+Resumo e Anotações | Microsoft Azure
+===================================
+
+Este repositório foi criado como parte do desafio da Digital Innovation One (DIO).
+O objetivo é documentar conceitos gerais de computação em nuvem e da plataforma Microsoft Azure,
+servindo como material de apoio para estudos e futuras implementações.
+
+-----------------------------------
+🎯 Objetivos do Desafio
+-----------------------------------
+- Consolidar o aprendizado sobre Azure e Cloud Computing.
+- Documentar conceitos, boas práticas e dicas importantes.
+- Utilizar o GitHub como ferramenta para organização e compartilhamento.
+- Criar um material de apoio para revisões futuras.
+
+-----------------------------------
+🌐 Computação em Nuvem (Cloud Computing)
+-----------------------------------
+A computação em nuvem é o fornecimento de serviços de TI pela internet.
+
+Principais características:
+- Alta disponibilidade – sistemas sempre disponíveis.
+- Escalabilidade – cresce ou diminui conforme a demanda.
+- Elasticidade – ajusta recursos automaticamente.
+- Confiabilidade – segurança e redundância de dados.
+- Segurança – controle de acessos e criptografia.
+- Governança e Gerenciabilidade – monitoramento e controle dos serviços.
+
+-----------------------------------
+🔹 Modelos de Serviço em Nuvem
+-----------------------------------
+- IaaS (Infraestrutura como Serviço): aluguel de infraestrutura (máquinas virtuais, rede, armazenamento).
+- PaaS (Plataforma como Serviço): ambiente pronto para desenvolver e hospedar aplicações.
+- SaaS (Software como Serviço): aplicações prontas consumidas via navegador (ex.: Office 365, Gmail).
+
+-----------------------------------
+🔹 Modelos de Implantação
+-----------------------------------
+- Nuvem Pública: serviços compartilhados e acessíveis pela internet (Azure, AWS, GCP).
+- Nuvem Privada: infraestrutura exclusiva de uma organização.
+- Nuvem Híbrida: combinação de pública e privada, oferecendo flexibilidade.
+
+-----------------------------------
+🛠️ Principais Serviços do Azure
+-----------------------------------
+- Compute (Cálculo): Máquinas Virtuais, Azure App Service, Funções Serverless.
+- Storage (Armazenamento): Blob Storage, Disk Storage, File Storage.
+- Networking (Rede): Virtual Network, Load Balancer, VPN Gateway.
+- Databases: Azure SQL Database, Cosmos DB, MySQL/PostgreSQL gerenciados.
+- Segurança: Azure Active Directory, Key Vault.
+- Gerenciamento: Monitor, Cost Management, Policy.
+
+-----------------------------------
+💡 Dicas e Boas Práticas
+-----------------------------------
+- Sempre criar Resource Groups para organizar seus recursos.
+- Monitorar custos com o Cost Management.
+- Usar tags para categorizar recursos (ex.: ambiente=teste, projeto=dio).
+- Escolher a região mais próxima do usuário para reduzir latência.
+- Automatizar tarefas repetitivas com Azure CLI ou PowerShell.
+
+✅ Conclusão
+-----------------------------------
+Este repositório funciona como um guia de estudo sobre Azure, reunindo conceitos de computação em nuvem,
+modelos de serviço, implantação e principais recursos da plataforma.
+É um material em constante evolução, que pode ser atualizado conforme novas práticas e aprendizados surgirem.
