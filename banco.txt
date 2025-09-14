@@ -1,0 +1,42 @@
+Resumo - Banco de Dados no Azure
+
+O Azure oferece diversos serviços de banco de dados gerenciados, que permitem 
+armazenar, gerenciar e escalar informações sem a necessidade de administrar 
+infraestruturas físicas.
+
+Principais opções de banco no Azure:
+
+1. Azure SQL Database
+   - Banco de dados relacional baseado no SQL Server.
+   - Totalmente gerenciado, com alta disponibilidade e escalabilidade.
+   - Ideal para aplicações que já usam SQL Server.
+
+2. Azure Database for MySQL
+   - Banco relacional baseado no MySQL.
+   - Gerenciado, com suporte a backup automático e alta disponibilidade.
+   - Bom para aplicações web e sistemas que já utilizam MySQL.
+
+3. Azure Database for PostgreSQL
+   - Banco relacional baseado no PostgreSQL.
+   - Oferece flexibilidade, performance e escalabilidade.
+   - Muito usado em aplicações modernas e sistemas open-source.
+
+4. Azure Cosmos DB
+   - Banco de dados multimodelo (chave-valor, documentos, grafos, colunas).
+   - Escalável globalmente, com baixa latência.
+   - Ideal para aplicações distribuídas e em tempo real.
+
+5. Azure Storage (Tabelas, Blobs, Files, Queues)
+   - Voltado para armazenamento de objetos e dados não estruturados.
+   - Simples, barato e altamente escalável.
+
+Vantagens de bancos no Azure:
+- Serviços totalmente gerenciados (backup, atualização, monitoramento).
+- Alta disponibilidade e escalabilidade sob demanda.
+- Segurança integrada com criptografia e controle de acesso.
+- Integração nativa com outros serviços do Azure.
+
+Conclusão:
+Os bancos de dados no Azure permitem escolher entre opções relacionais 
+(SQL, MySQL, PostgreSQL) e não relacionais (Cosmos DB, Storage), dependendo 
+da necessidade da aplicação.
