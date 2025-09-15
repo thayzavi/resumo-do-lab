@@ -1,0 +1,50 @@
+# Governança e Conformidade no Microsoft Azure
+
+A **Governança em Nuvem** no Azure garante que os recursos sejam usados de forma segura, controlada e alinhada com normas internas e externas. Já a **Conformidade** assegura que as operações na nuvem atendam requisitos legais e regulatórios, como GDPR, LGPD, HIPAA e ISO 27001.
+
+O Azure oferece ferramentas nativas para aplicar regras, monitorar conformidade e proteger dados corporativos.
+
+## Ferramentas de Governança e Conformidade
+
+1. **Azure Policy**
+   - Permite **criar e aplicar regras** para garantir que os recursos do Azure estejam em conformidade com políticas corporativas e regulatórias.
+   - Exemplo: impedir a criação de máquinas virtuais em determinadas regiões ou exigir criptografia em todos os discos.
+   - Oferece relatórios de conformidade em tempo real.
+
+2. **Bloqueios de Recursos (Resource Locks)**
+   - Protege recursos críticos contra exclusões ou alterações acidentais.
+   - Tipos de bloqueios:
+     - **ReadOnly**: impede alterações, permitindo apenas leitura.
+     - **Delete**: impede a exclusão do recurso.
+   - Muito utilizado para proteger **grupos de recursos, VMs, bancos de dados e redes**.
+
+3. **Portal de Confiança do Serviço (Service Trust Portal)**
+   - Plataforma da Microsoft que fornece informações sobre:
+     - **Certificações de conformidade** (ISO, SOC, GDPR, LGPD, HIPAA, etc.).
+     - **Relatórios de auditoria** independentes.
+     - Documentação sobre segurança e privacidade.
+   - Ajuda organizações a validar se o Azure atende requisitos regulatórios.
+
+4. **Microsoft Purview**
+   - Conjunto de soluções para **governança de dados e conformidade**.
+   - Recursos principais:
+     - **Mapeamento e catalogação de dados** em diferentes fontes.
+     - **Classificação automática** de informações sensíveis.
+     - **Políticas de retenção e proteção** para dados regulados.
+   - Permite monitorar e proteger dados críticos em ambientes locais, Azure e outras nuvens.
+
+## Benefícios
+
+- **Conformidade regulatória**: suporte a normas globais e locais.
+- **Segurança operacional**: proteção contra alterações não autorizadas.
+- **Transparência**: relatórios e auditorias disponíveis para clientes e auditores.
+- **Governança de dados**: controle centralizado sobre ciclo de vida e acesso a informações.
+- **Redução de riscos**: menor chance de violações de segurança ou falhas em auditorias.
+
+## Exemplos de Uso
+
+- Aplicar **Azure Policy** para garantir que todas as VMs tenham criptografia habilitada.
+- Configurar **Resource Locks** em bancos de dados críticos para evitar exclusão acidental.
+- Consultar o **Service Trust Portal** para verificar certificações necessárias em auditorias.
+- Utilizar o **Microsoft Purview** para identificar dados pessoais (PII) e atender à **LGPD**.
+
