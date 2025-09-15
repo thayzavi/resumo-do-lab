@@ -1,0 +1,51 @@
+# Gerenciamento de Custos no Microsoft Azure
+
+O **Azure Cost Management and Billing** é o conjunto de ferramentas que ajuda empresas e desenvolvedores a **monitorar, alocar, otimizar e controlar os gastos na nuvem**. Ele permite que os recursos sejam usados de forma eficiente, evitando surpresas na fatura.
+
+## Principais Recursos
+
+1. **Azure Cost Management**
+   - Visualização detalhada de custos e uso de recursos.
+   - Relatórios interativos com gráficos e filtros.
+   - Definição de **orçamentos (budgets)** para acompanhar gastos previstos.
+   - Recomendações automáticas de otimização de custos.
+
+2. **Azure Billing**
+   - Geração de faturas mensais detalhadas.
+   - Suporte a diferentes formas de pagamento.
+   - Transparência na cobrança de serviços utilizados.
+   - Possibilidade de exportar dados financeiros para integração com ERPs.
+
+3. **Tags de Recursos**
+   - Uso de **tags** (etiquetas) em recursos para organizar custos por projeto, departamento ou cliente.
+   - Facilita a criação de relatórios personalizados.
+
+4. **Orçamentos e Alertas**
+   - Definição de limites de gastos mensais ou por serviço.
+   - Alertas automáticos quando os custos atingem determinada porcentagem do orçamento.
+
+5. **Recomendações de Economia**
+   - Sugestões de compra de **Reservas (Reserved Instances)** para reduzir custos em máquinas virtuais.
+   - Indicação de uso de **Spot VMs** para cargas temporárias.
+   - Identificação de recursos **ociosos ou subutilizados**.
+
+6. **Ferramentas de Previsão**
+   - Estimativas de gastos futuros com base no consumo histórico.
+   - Planejamento de investimentos em nuvem de acordo com a demanda.
+
+## Benefícios
+
+- **Transparência**: visão clara dos custos por serviço e por período.
+- **Controle**: possibilidade de criar limites e evitar gastos inesperados.
+- **Otimização**: recomendações para reduzir despesas.
+- **Flexibilidade**: alocação de custos por equipes, projetos ou clientes.
+- **Previsibilidade**: relatórios que ajudam no planejamento financeiro.
+
+## Exemplos de Uso
+
+- Monitorar gastos de um projeto de desenvolvimento em tempo real.
+- Criar alertas para evitar que os custos ultrapassem o orçamento mensal.
+- Alocar despesas de nuvem entre diferentes áreas da empresa usando tags.
+- Identificar e desligar máquinas virtuais pouco utilizadas.
+- Comprar instâncias reservadas para workloads de longo prazo e reduzir custos.
+
