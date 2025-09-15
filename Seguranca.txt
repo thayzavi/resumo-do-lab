@@ -1,0 +1,68 @@
+# Segurança e Identidade no Microsoft Azure
+
+O **Azure** oferece um conjunto robusto de serviços e ferramentas para garantir a segurança das aplicações, dados e identidades. Seu foco está em **proteção proativa, detecção de ameaças e gerenciamento centralizado de acessos**.
+
+## Principais Recursos de Segurança
+
+1. **Microsoft Defender for Cloud (antigo Azure Security Center)**
+   - Monitora e protege cargas de trabalho na nuvem e no local.
+   - Avalia vulnerabilidades e sugere recomendações de segurança.
+   - Oferece proteção contra ameaças em tempo real.
+
+2. **Microsoft Sentinel**
+   - SIEM (Security Information and Event Management) baseado em nuvem.
+   - Coleta, analisa e correlaciona logs de segurança para detectar ataques.
+   - Usa inteligência artificial para identificar comportamentos suspeitos.
+
+3. **Criptografia**
+   - Dados em repouso: criptografados automaticamente com AES-256.
+   - Dados em trânsito: protegidos por TLS/SSL.
+   - Suporte a chaves de criptografia gerenciadas pelo cliente (Customer-Managed Keys).
+
+4. **Firewall e Redes**
+   - **Azure Firewall**: filtra tráfego de rede de entrada e saída.
+   - **NSG (Network Security Groups)**: controla regras de tráfego em sub-redes e VMs.
+   - **DDoS Protection**: defende contra ataques de negação de serviço.
+
+## Identidade e Acesso
+
+1. **Microsoft Entra ID (antigo Azure Active Directory - Azure AD)**
+   - Serviço de identidade e gerenciamento de acesso baseado em nuvem.
+   - Permite logon único (**SSO**) em milhares de aplicativos SaaS e sistemas locais.
+   - Integração com Microsoft 365, Salesforce, GitHub e outros.
+   - Faz parte da família **Microsoft Entra**, que inclui também:
+     - **Entra Permissions Management** (gestão de permissões multi-cloud).
+     - **Entra Verified ID** (identidade descentralizada).
+
+2. **Autenticação Multifator (MFA)**
+   - Requer múltiplas formas de verificação (senha + SMS, e-mail, aplicativo autenticador ou biometria).
+   - Aumenta a proteção contra invasões por credenciais roubadas.
+
+3. **Controle de Acesso Baseado em Função (RBAC)**
+   - Define permissões granulares para usuários, grupos e aplicativos.
+   - Garante que cada usuário tenha apenas os acessos necessários.
+
+4. **Identidade Híbrida**
+   - Integração entre Active Directory local e Microsoft Entra ID.
+   - Permite que empresas usem identidades existentes para acessar recursos na nuvem.
+
+5. **Privileged Identity Management (PIM)**
+   - Gerencia e monitora acessos administrativos.
+   - Permite acesso privilegiado apenas quando necessário (**just-in-time access**).
+
+## Benefícios
+
+- **Centralização** da gestão de identidades.
+- **Maior segurança** contra ataques de phishing e roubo de credenciais.
+- **Conformidade** com normas como GDPR, ISO 27001 e HIPAA.
+- **Visibilidade** com relatórios e auditorias em tempo real.
+- **Escalabilidade** para atender pequenas empresas e grandes corporações.
+
+## Exemplos de Uso
+
+- Proteção de contas corporativas com MFA.
+- Monitoramento contínuo de ameaças com Microsoft Sentinel.
+- Controle de acessos em projetos com RBAC.
+- Criptografia de dados sensíveis em bancos e aplicações financeiras.
+- Integração de login único em sistemas locais e SaaS com **Microsoft Entra ID**.
+
