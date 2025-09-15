@@ -1,0 +1,67 @@
+# Ferramentas de Monitoramento no Microsoft Azure
+
+O Azure oferece diversas ferramentas para **acompanhar a saúde, o desempenho e a segurança dos recursos em nuvem**, ajudando organizações a detectar falhas, otimizar desempenho e reduzir custos.  
+
+## Principais Ferramentas de Monitoramento
+
+1. **Azure Monitor**
+   - Plataforma central de monitoramento no Azure.
+   - Coleta métricas, logs e dados de telemetria de recursos em nuvem e locais.
+   - Integra-se a dashboards e alertas personalizados.
+   - Funciona como base para outros serviços de monitoramento.
+
+2. **Application Insights**
+   - Parte do Azure Monitor voltada para **aplicações**.
+   - Monitora disponibilidade, desempenho e uso de apps.
+   - Detecta falhas automaticamente e gera insights para desenvolvedores.
+   - Suporte a várias linguagens (C#, Java, Node.js, Python, etc.).
+
+3. **Log Analytics**
+   - Ferramenta para **consultar e analisar logs** coletados pelo Azure Monitor.
+   - Usa a linguagem **KQL (Kusto Query Language)** para criar relatórios avançados.
+   - Permite identificar padrões e investigar incidentes.
+
+4. **Azure Service Health**
+   - Informa sobre incidentes, interrupções e manutenções planejadas do Azure.
+   - Notificações personalizadas para alertar equipes sobre problemas que afetam serviços específicos.
+   - Importante para planejar continuidade de negócios.
+
+5. **Azure Advisor**
+   - Fornece recomendações inteligentes para otimizar:
+     - **Segurança**
+     - **Desempenho**
+     - **Alta disponibilidade**
+     - **Custo**
+   - Ajuda a corrigir gargalos e melhorar a eficiência da infraestrutura.
+
+6. **Network Watcher**
+   - Monitoramento de **rede** no Azure.
+   - Permite diagnosticar conectividade, analisar tráfego e detectar gargalos.
+   - Oferece ferramentas como **Connection Monitor**, **IP Flow Verify** e **NSG Flow Logs**.
+
+7. **Azure Monitor for VMs**
+   - Coleta métricas de desempenho específicas de máquinas virtuais.
+   - Identifica uso excessivo de CPU, memória, disco e rede.
+   - Ajuda na otimização e no dimensionamento adequado de VMs.
+
+8. **Azure Sentinel (Microsoft Sentinel)**
+   - SIEM/SOAR baseado em nuvem.
+   - Focado em monitoramento de **segurança** e detecção de ameaças.
+   - Correlaciona eventos de diferentes fontes e gera alertas inteligentes.
+
+## Benefícios
+
+- **Centralização**: monitoramento unificado de todos os recursos.
+- **Detecção proativa**: identificação rápida de falhas e anomalias.
+- **Otimização**: insights para reduzir custos e melhorar desempenho.
+- **Automação**: alertas e ações automáticas em resposta a incidentes.
+- **Escalabilidade**: adequado para pequenas empresas e grandes corporações.
+
+## Exemplos de Uso
+
+- Usar **Application Insights** para monitorar um site de e-commerce.
+- Consultar **Log Analytics** para investigar falhas em VMs.
+- Configurar **Service Health** para receber alertas sobre interrupções regionais.
+- Aplicar recomendações do **Azure Advisor** para reduzir custos em bancos de dados.
+- Monitorar tráfego e conectividade de rede com **Network Watcher**.
+

@@ -1,0 +1,61 @@
+# Ferramentas de Gerenciamento e Implementação no Microsoft Azure
+
+O Azure oferece diversas ferramentas para **implantar, gerenciar e monitorar recursos em nuvem**, permitindo que organizações escolham entre interfaces gráficas, linhas de comando e automação baseada em código.  
+
+## Principais Ferramentas
+
+1. **Azure Portal**
+   - Interface gráfica baseada na web.
+   - Permite criar, configurar e monitorar recursos de forma intuitiva.
+   - Ideal para iniciantes ou gerenciamento manual.
+
+2. **Azure CLI**
+   - Ferramenta de linha de comando multiplataforma (Windows, Linux e macOS).
+   - Usada para **gerenciamento via scripts** e automação.
+   - Comandos simplificados (`az vm create`, `az storage account list`, etc.).
+
+3. **Azure PowerShell**
+   - Conjunto de módulos para administração via **cmdlets**.
+   - Muito usado por profissionais que já trabalham com Windows Server e Active Directory.
+   - Ideal para automação de tarefas administrativas no Azure.
+
+4. **ARM Templates (Azure Resource Manager)**
+   - Arquivos em formato JSON para **definir a infraestrutura como código (IaC)**.
+   - Permitem padronizar a criação de recursos e aplicar governança.
+   - Suportam parâmetros e variáveis para reutilização em diferentes ambientes.
+
+5. **Bicep**
+   - Linguagem declarativa simplificada para **IaC**, substituta moderna dos ARM Templates.
+   - Mais legível e fácil de manter do que JSON.
+   - Integra-se nativamente ao Azure Resource Manager.
+
+6. **Terraform**
+   - Ferramenta de IaC de terceiros (HashiCorp).
+   - Compatível com múltiplas nuvens (Azure, AWS, GCP).
+   - Usada para padronizar ambientes híbridos ou multi-cloud.
+
+7. **Azure DevOps**
+   - Plataforma para **integração e entrega contínua (CI/CD)**.
+   - Permite pipelines automatizados de build, teste e deploy.
+   - Integração com GitHub e outras ferramentas de versionamento.
+
+8. **Azure Arc**
+   - Extensão de gerenciamento para **recursos fora do Azure** (on-premises ou outras nuvens).
+   - Unifica governança e políticas de conformidade.
+
+9. **Azure Mobile App**
+   - Aplicativo para dispositivos móveis (Android/iOS).
+   - Permite monitorar e gerenciar recursos do Azure de qualquer lugar.
+
+## Benefícios
+
+- **Flexibilidade**: escolha entre interface gráfica, linha de comando ou código.
+- **Automação**: redução de erros humanos e ganho de produtividade.
+- **Escalabilidade**: implantação rápida de ambientes complexos.
+- **Consistência**: uso de modelos e scripts padronizados.
+- **Integração**: compatibilidade com ferramentas DevOps e multi-cloud.
+
+## Exemplos de Uso
+
+- Criar e gerenciar VMs pelo **Azure Portal**.
+- Automatizar backups de bancos de dados com **Azure PowerShell**
