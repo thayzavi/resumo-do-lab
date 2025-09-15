@@ -1,0 +1,64 @@
+# Armazenamento no Microsoft Azure
+
+O **Azure Storage** é um serviço em nuvem altamente escalável, seguro e durável, oferecido pela Microsoft para atender diferentes necessidades de armazenamento de dados. Ele permite que empresas e desenvolvedores armazenem, acessem e gerenciem grandes volumes de informações de forma confiável.
+
+## Tipos de Armazenamento no Azure
+
+1. **Blob Storage**
+   - Ideal para armazenar grandes quantidades de dados não estruturados, como imagens, vídeos, backups e documentos.
+   - Suporta diferentes camadas de acesso (Hot, Cool, Archive) para otimização de custos.
+
+2. **File Storage**
+   - Compartilhamento de arquivos na nuvem com acesso via protocolo SMB (Server Message Block).
+   - Muito utilizado para substituir servidores de arquivos locais.
+
+3. **Queue Storage**
+   - Armazenamento de mensagens para comunicação entre componentes distribuídos de aplicações.
+   - Suporte a filas assíncronas e escalabilidade.
+
+4. **Table Storage**
+   - Banco NoSQL para armazenamento de dados estruturados de forma simples e rápida.
+   - Escalável e com baixo custo para grandes volumes de dados.
+
+5. **Disk Storage**
+   - Discos persistentes para Máquinas Virtuais (VMs) do Azure.
+   - Pode ser SSD ou HDD, com diferentes níveis de desempenho.
+
+## Benefícios do Azure Storage
+
+- **Alta disponibilidade**: garante que os dados estejam sempre acessíveis.
+- **Escalabilidade**: aumenta ou reduz a capacidade conforme a demanda.
+- **Segurança**: criptografia de dados em repouso e em trânsito.
+- **Integração**: compatível com diversas ferramentas e serviços do Azure.
+- **Custo-benefício**: diferentes camadas de preços para otimizar o orçamento.
+
+## Gerenciamento de Arquivos no Azure
+
+O Azure oferece diferentes formas para gerenciar arquivos e dados armazenados:
+
+1. **Azure Portal**
+   - Interface gráfica baseada na web para upload, download, exclusão e gerenciamento de arquivos.
+
+2. **Azure Storage Explorer**
+   - Aplicativo gratuito (desktop) que permite explorar, transferir e organizar arquivos de forma prática.
+
+3. **Azure CLI**
+   - Ferramenta de linha de comando para criar, listar e manipular arquivos com scripts automatizados.
+
+4. **PowerShell**
+   - Suporte a comandos para gerenciamento avançado de armazenamento e automação de tarefas.
+
+5. **SDKs e APIs**
+   - Integração com linguagens como C#, Python, Java e Node.js para manipulação de arquivos em aplicações.
+
+6. **Mapeamento de Unidade de Rede**
+   - No File Storage, é possível mapear um compartilhamento de arquivos como se fosse uma unidade local no Windows, Linux ou macOS.
+
+## Exemplos de Uso
+
+- Hospedagem de sites e aplicações.
+- Backup e recuperação de desastres.
+- Armazenamento de big data e analytics.
+- Compartilhamento de arquivos entre equipes globais.
+- Integração com pipelines de CI/CD para publicação de aplicações.
+
